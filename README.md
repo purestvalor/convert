@@ -22,16 +22,16 @@ Download audio (mp3) or video (mp4) from YouTube/TikTok links, or convert files 
 
 ## Save paths
 
-Default save folders are set in youtube_mp3_converter.py. Look for the lines marked:
+Files save to your Downloads folder by default. To change it, open `youtube_mp3_converter.py` & look for the lines marked:
 
 ```
-# CHANGE DEFAULT MP3 PATH HERE
-# CHANGE DEFAULT MP4 PATH HERE
+# CHANGE DEFAULT MP3 FOLDER HERE
+# CHANGE DEFAULT MP4 FOLDER HERE
 ```
 
 Or just type your own folder when it asks where to save.
 
 ## Troubleshooting
 
-- **winget not found:** install Python from [python.org](https://python.org) (tick "Add to PATH").
-- **Got a .webm instead of mp3:** ffmpeg wasn't found. Run winget install ffmpeg, then close terminal & open a new one. Or download it from [ffmpeg.org](https://ffmpeg.org).
+- **`winget` not found:** install Python from [python.org](https://python.org) (tick "Add to PATH").
+- **Got a .webm instead of mp3:** ffmpeg wasn't found. Run `winget install ffmpeg`, then close terminal & open a new one. Or download it from [ffmpeg.org](https://ffmpeg.org).
